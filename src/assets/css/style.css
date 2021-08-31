@@ -1,0 +1,88 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.app .count {
+width: 10rem;
+    height: 10rem;
+
+
+     border-color:blue;
+    
+    text-align:center;
+    
+   
+}
+.app .count h3 {
+    display:table-column-group;
+    line-height: 2rem;
+    align: top;
+
+    
+    
+}
+.app .count h1 {
+    line-height: 2rem;
+    font-size:5em;
+    margin:0px 0px 0px 0px;
+    
+}
+.app .buttons button {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 4%;
+    border:None;
+   
+    font-size: 5em;
+    
+    cursor: pointer;
+}
+.app .buttons button:hover{
+    
+    background-color:#F76B6B;
+}
+.app .buttons button:focus{
+    outline: 0;
+}
+.app .container .box {  
+width:480px;
+                
+   margin:0px 0px 0px 0px; 
+   border-color:blue; 
+padding:10px;               
+
+               
+
+                display:table;  
+
+            }  
+
+.app .container .box .box-row {  
+margin:0px 0px 0px 0px;
+
+                display:table-row;  
+        
+
+            }  
+
+.app .container .box .box-cell {  
+                display:table-cell;  
+      
+
+                 
+
+            }
+.app  .container .box .box-cell.box2 {  
+
+                
+
+background:#FCE7E7; 
+
+
+
+                 
+
+            }     
+ 
